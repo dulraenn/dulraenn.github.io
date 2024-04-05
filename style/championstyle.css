@@ -1,0 +1,149 @@
+::-webkit-scrollbar {
+    display: none;
+}
+/* Element styling */
+* {
+    font-family: system-ui;
+    font-weight: lighter;
+    color: white;
+}
+body {
+    background-image: url(/images/leaguelandscape.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1 {
+    font-weight: 350;
+    font-size: 35px;
+}
+h2 {
+    font-size: 33px;
+}
+p { 
+    font-size: 30px;
+}
+hr {
+    width: 70%;
+    color: white;
+}
+sub {
+    font-size: 16px;
+}
+
+ul li {
+    list-style-position: inside;
+    list-style-type: none;
+    font-size: 30px;
+}
+a {
+    text-decoration: none;
+    cursor:default;
+}
+
+
+/* Class styling */
+.main {
+    background-color: rgba(0,0,0,0.3);
+    text-align: center;
+    width: 60%;
+    height: 80%;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 5%;
+    overflow: hidden;
+    margin-top: 50px;
+}
+.main p{
+    padding-left: 50px;
+    float: left;
+}
+.desc {
+    width: 55%;
+    float: left;
+    padding-left: 20px;
+}
+.main img {
+    float: right;
+    padding-right: 20px;
+    width: 35%;
+    padding-top: 4%;
+}
+.main h1 {
+    padding-bottom: 40px;
+}
+
+/* Navigation bar styling */
+.nav {
+    overflow: hidden;
+    border-radius: 4px;
+    display: inline;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    top: 0;
+    right: 0;
+    position: fixed;
+}
+
+.nav a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
+    font-size: 22px;
+    border-right: 1px solid white;
+
+}
+.nav a:first-child {
+    border-right: none;
+}
+
+#active {
+    font-weight: 400;
+    cursor: not-allowed;
+}
+
+/* Button styling */
+
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: rgba(17, 89, 137,0.2);
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
