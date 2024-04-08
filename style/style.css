@@ -38,7 +38,7 @@ ul li {
 }
 a {
     text-decoration: none;
-    cursor:default;
+    cursor: grab;
 }
 
 
@@ -75,6 +75,9 @@ a {
 .main h1 {
     padding-bottom: 40px;
 }
+.hyperlink {
+    color: lightblue;
+}
 
 /* Navigation bar styling */
 .nav {
@@ -102,10 +105,14 @@ a {
 .nav a:first-child {
     border-right: none;
 }
+.nav a:hover {
+    background-color: rgba(17, 89, 137,0.2)
+}
 
 #active {
     font-weight: 400;
     cursor: not-allowed;
+    background-color: rgba(17, 89, 137,0.4)
 }
 
 /* Button styling */

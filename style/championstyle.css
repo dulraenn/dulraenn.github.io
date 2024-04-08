@@ -47,7 +47,7 @@ a {
     background-color: rgba(0,0,0,0.3);
     text-align: center;
     width: 60%;
-    height: 80%;
+    max-height: 80%;
     margin: 0 auto;
     border-radius: 20px;
     padding-top: 30px;
@@ -68,12 +68,13 @@ a {
 .main img {
     float: right;
     padding-right: 20px;
-    width: 35%;
+    max-width: 35%;
     padding-top: 4%;
 }
 .main h1 {
     padding-bottom: 40px;
 }
+
 
 /* Navigation bar styling */
 .nav {
@@ -101,9 +102,14 @@ a {
     border-right: none;
 }
 
+.nav a:hover {
+    background-color: rgba(17, 89, 137,0.2)
+}
+
 #active {
     font-weight: 400;
     cursor: not-allowed;
+    background-color: rgba(17, 89, 137,0.4)
 }
 
 /* Button styling */
