@@ -84,11 +84,9 @@ a {
     overflow: hidden;
     border-radius: 4px;
     display: inline;
-    float: right;
-    margin-top: 10px;
     margin-bottom: 50px;
-    top: 0;
-    right: 0;
+    top: 15px;
+    right: 10px;
     position: fixed;
 }
 
@@ -113,6 +111,23 @@ a {
     font-weight: 400;
     cursor: not-allowed;
     background-color: rgba(17, 89, 137,0.4)
+}
+.btt {
+    overflow: hidden;
+    border-radius: 7px;
+    display: inline;
+    right: 4%;
+    bottom: 4%;
+    position: fixed;
+}
+.btt a{
+    font-size: 22px;
+    background-color:rgba(17, 89, 137,0.2);
+    padding: 15px;
+    text-align: center;
+}
+.btt a:hover {
+    background-color:rgba(17, 89, 137,0.4)
 }
 
 /* Button styling */

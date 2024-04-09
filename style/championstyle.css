@@ -67,24 +67,51 @@ a {
 }
 .main img {
     float: right;
-    padding-right: 20px;
+    margin-right: 20px;
     max-width: 35%;
-    padding-top: 4%;
+    margin-top: 4%;
+    opacity: 0.9;
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease, filter 0.3s ease;
+    border-radius: 5px;
+}
+.main img:hover {
+    border-color:rgba(255, 255, 255,0.7);
+    filter: brightness(0.8); /* Darken the image slightly */
 }
 .main h1 {
     padding-bottom: 40px;
 }
-
+.main a:hover {
+    text-decoration: underline;
+}
+.btt {
+    overflow: hidden;
+    border-radius: 7px;
+    display: inline;
+    right: 4%;
+    bottom: 4%;
+    position: fixed;
+}
+.btt a{
+    font-size: 22px;
+    background-color:rgba(17, 89, 137,0.2);
+    padding: 15px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+.btt a:hover {
+    background-color:rgba(17, 89, 137,0.4)
+}
 
 /* Navigation bar styling */
 .nav {
     overflow: hidden;
     border-radius: 4px;
     display: inline;
-    margin-top: 10px;
     margin-bottom: 50px;
-    top: 0;
-    right: 0;
+    top: 15px;
+    right: 10px;
     position: fixed;
 }
 
@@ -96,6 +123,7 @@ a {
     text-decoration: none;
     font-size: 22px;
     border-right: 1px solid white;
+    transition: background-color 0.3s ease;
 
 }
 .nav a:first-child {
