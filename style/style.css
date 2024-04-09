@@ -78,6 +78,24 @@ a {
 .hyperlink {
     color: lightblue;
 }
+.btt {
+    overflow: hidden;
+    border-radius: 7px;
+    display: inline;
+    right: 4%;
+    bottom: 4%;
+    position: fixed;
+}
+.btt a{
+    font-size: 22px;
+    background-color:rgba(17, 89, 137,0.2);
+    padding: 15px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+.btt a:hover {
+    background-color:rgba(17, 89, 137,0.4)
+}
 
 /* Navigation bar styling */
 .nav {
@@ -98,11 +116,13 @@ a {
     text-decoration: none;
     font-size: 22px;
     border-right: 1px solid white;
+    transition: background-color 0.3s ease;
 
 }
 .nav a:first-child {
     border-right: none;
 }
+
 .nav a:hover {
     background-color: rgba(17, 89, 137,0.2)
 }
@@ -112,22 +132,11 @@ a {
     cursor: not-allowed;
     background-color: rgba(17, 89, 137,0.4)
 }
-.btt {
-    overflow: hidden;
-    border-radius: 7px;
-    display: inline;
-    right: 4%;
-    bottom: 4%;
-    position: fixed;
-}
-.btt a{
-    font-size: 22px;
-    background-color:rgba(17, 89, 137,0.2);
-    padding: 15px;
-    text-align: center;
-}
-.btt a:hover {
-    background-color:rgba(17, 89, 137,0.4)
+
+#active {
+    font-weight: 400;
+    cursor: not-allowed;
+    background-color: rgba(17, 89, 137,0.4)
 }
 
 /* Button styling */
