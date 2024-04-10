@@ -43,18 +43,19 @@ a {
 
 
 /* Class styling */
-.main {
+.main, .clist {
     background-color: rgba(0,0,0,0.3);
     text-align: center;
     width: 60%;
-    max-height: 80%;
+    height: 80%;
     margin: 0 auto;
     border-radius: 20px;
     padding-top: 30px;
     padding-bottom: 30px;
     margin-bottom: 5%;
     overflow: hidden;
-    margin-top: 50px;
+    clear: both;
+    margin-top: 8%;
 }
 .main p{
     padding-left: 50px;
@@ -65,6 +66,15 @@ a {
     float: left;
     padding-left: 20px;
 }
+.clist a:hover {
+    font-weight: 700;
+    font-size: 45px;
+}
+.clist li {
+    margin-bottom: 1%;
+    font-size: 40px;
+}
+
 .main img {
     float: right;
     margin-right: 20px;
@@ -82,15 +92,12 @@ a {
 .main h1 {
     padding-bottom: 40px;
 }
-.main a:hover {
-    text-decoration: underline;
-}
 .btt {
     overflow: hidden;
     border-radius: 7px;
     display: inline;
-    right: 4%;
-    bottom: 4%;
+    right: 5%;
+    bottom: 10%;
     position: fixed;
 }
 .btt a{
@@ -101,7 +108,25 @@ a {
     transition: background-color 0.3s ease;
 }
 .btt a:hover {
-    background-color:rgba(17, 89, 137,0.4)
+    background-color:rgba(17, 89, 137,0.4);
+}
+
+/* Champion ID styling */
+#swain  h1{
+    text-decoration: underline;
+    text-decoration-color: black;
+    color: rgb(104, 11, 10);
+    font-weight: 500;
+}
+#sylas h1 {
+    text-decoration: underline;
+    text-decoration-color: rgb(57, 45, 99);
+    color: rgb(12, 29, 77);
+    font-weight: 500;
+}
+#ornn h1 {
+    color: rgb(137, 24, 49);
+    font-weight: 500;
 }
 
 /* Navigation bar styling */
@@ -109,9 +134,8 @@ a {
     overflow: hidden;
     border-radius: 4px;
     display: inline;
-    margin-bottom: 50px;
-    top: 15px;
-    right: 10px;
+    top: 3%;
+    right: 2%;
     position: fixed;
 }
 
