@@ -112,6 +112,9 @@ a {
 }
 
 /* Champion ID styling */
+.main h1 {
+    text-shadow: 1px 1px 4px black;
+}
 #swain  h1{
     text-decoration: underline;
     text-decoration-color: black;
@@ -119,14 +122,51 @@ a {
     font-weight: 500;
 }
 #sylas h1 {
-    text-decoration: underline;
-    text-decoration-color: rgb(57, 45, 99);
     color: rgb(12, 29, 77);
     font-weight: 500;
 }
 #ornn h1 {
     color: rgb(137, 24, 49);
     font-weight: 500;
+}
+#fiddlesticks h1 {
+    color: rgb(87, 23, 18);
+    font-weight: 300;
+    font-style: italic;
+}
+#kindred h1 {
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: black;
+    font-weight: 200;
+}
+#bard h1 {
+    text-decoration: underline;
+    text-decoration-color: rgb(177, 127, 54);
+}
+#asol h1 {
+    color: rgb(55, 157, 159);
+    font-weight: 500;
+}
+#volibear h1 {
+    color: rgb(173, 211, 250);
+    font-weight: 400;
+}
+#mordekaiser h1 {
+    color: rgb(43, 48, 49);
+    text-decoration: underline;
+    text-decoration-color: rgb(42, 101, 80);
+    font-weight: 400
+}
+#pantheon h1 {
+    color: rgb(199, 123, 48);
+    font-style: italic;
+}
+#jax h1 {
+    color: rgb(146, 107, 162);
+}
+#ekko h1 {
+    color: rgb(81, 180, 174);
 }
 
 /* Navigation bar styling */
