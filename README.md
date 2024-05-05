@@ -1,3 +1,3 @@
 hi
 
-school project
+welcome to website
