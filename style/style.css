@@ -24,8 +24,11 @@ p {
     font-size: 45px;
 }
 hr {
-    width: 70%;
-    color: white;
+    width: 120%;
+    margin-left: -10%;
+    border: none;
+    height: 1px;
+    background: white;
 }
 sub {
     font-size: 16px;
@@ -148,7 +151,6 @@ to { opacity: 1; }
     text-decoration: none;
     font-size: 22px;
     border-right: 1px solid white;
-    transition: background-color 0.3s ease;
 
 }
 .nav a:first-child {
@@ -156,13 +158,13 @@ to { opacity: 1; }
 }
 
 .nav a:hover {
-    background-color: rgba(17, 89, 137,0.2)
+    background-color: rgba(235, 145, 137, 0.4)
 }
 
 #active {
     font-weight: 400;
     cursor: not-allowed;
-    background-color: rgba(17, 89, 137,0.4)
+    background-color: rgba(235, 145, 137, 0.4)
 }
 
 /* Button styling */
@@ -170,7 +172,7 @@ to { opacity: 1; }
 .button {
     display: inline-block;
     border-radius: 4px;
-    background-color: rgba(17, 89, 137,0.2);
+    background-color: rgba(235, 145, 137, 0.4);
     border: none;
     color: #FFFFFF;
     text-align: center;
