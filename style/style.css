@@ -13,8 +13,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: auto;
-    width: auto;
+    height: 100%;
+    width: 100%;
 }
 h1 {
     font-size: 5vw;
