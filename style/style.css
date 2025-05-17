@@ -64,7 +64,7 @@ a {
     font-weight: 200;
 }
 .container.first {
-    margin-top: 15vh;
+    padding-top: 15vh;
 }
 .container {
     display: flex;
